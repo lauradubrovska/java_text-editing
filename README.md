@@ -1,21 +1,18 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/SwJIGkWs)
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-7f7980b617ed060a017424585567c406b6ee15c891e84e1186181d67ecf80aa0.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=14154699)
-# Uzdevums:
-Izstrādāt programmu, kas modificē teksta failu, formatējot tekstu dotā failā sekojošā veidā:  
-1) Izlīdzināt visas teksta rindas pēc centra (līdzīgi tam, kā to dara Word pēc komandas Format -> Paragraph  > Center Text). Teksta formatēšanai palieliniet atstarpes simbolu skaitu rindas sākumā un beigās. Rindas beigās var būt par vienu atstarpes simbolu mazāk (obligāti pievienojiet atstarpes arī rindās beigās).
-2) Tukšās rindas izdzēst, katrai rindai ir jāsākas ar lielo burtu.
-3) Starp katrām divām rindām iestarpināt tukšu rindu.
-4) Teksta rindu garumu rezultējošā failā ir jāizvēlas ievērojot garākās teksta rindas garumu.
 
-# Prasības lietotāja saskarnei:
-Programmai ir jāapstrādā vaicājumi print, format un exit. Kamēr lietotājs neievadīs komandu exit programmai bezgalīgā ciklā ir jāievada komandas un jāizpilda atbilstošas darbības.
+# Task:
+Develop a program that modifies a text file by formatting the text in a given file in the following way:
+1) Align all lines of text by center (similar to how Word does it after the command Format -> Paragraph > Center Text). To format text, increase the number of whitespace characters at the beginning and end of a line. There can be one less space character at the end of a line (be sure to add spaces at the end of lines as well).
+2) Delete empty lines, each line must start with a capital letter.
+3) Insert a blank line between every two lines.
+4) The length of the text lines in the resulting file must be selected according to the length of the longest text line.
 
-Komandu formāts:
+# Requirements for the user interface:
+The program must handle print, format and exit queries. Until the user enters the exit command, the program must enter commands and perform corresponding actions in an infinite loop.
+
+Team format:
 
 print filename
 
 format filename
 
 exit
-
-# Failus, kas atrodas mapē "files" modificēt aizliegts.
